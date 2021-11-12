@@ -5,16 +5,28 @@
     border-radius: 20px 20px;
     overflow: auto;
     text-align: center;
+    background-image: linear-gradient(to bottom, #821C99 70%, #D06CE6);
 }
 
 .menu{
     
-    height: auto;
-    background-color: #D06CE6;
+    block-size: auto;
+    background-color: #6B992B;
+    opacity: 0.9;
+    overflow: auto;
 }
 
-.menu li{
+.boton{
     float: left;
     list-style: none;
-    margin-left: 15%;
+    inline-size: 30%;
+    background-image: linear-gradient(to up, #AAE657 30%, #6B992B);
+}
+
+
+.caja{
+    background-color: #821C99;
+    block-size: 30px;
+    inline-size: 50px;
+    writing-mode: vertical-lr;
 }
