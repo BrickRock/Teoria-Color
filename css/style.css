@@ -1,51 +1,65 @@
 /*************************Cabecera*********/
 
+
+body{
+    padding-bottom: 1000px;
+}
 .cabecera{
-   
-    border-radius: 20px 20px;
+    inline-size: 100%;
     overflow: auto;
     text-align: center;
-    inline-size: 60%;
-    margin-left: 500px;
-    
+    background-color: black;
+    color: white;
+    position: relative;
+    border: 1px solid black;
+    border-radius: 10px;
 }
-
-.cabecera::before{
+/*esta regla se aplica estilos por igual a after y before tratando de imitar OOPCSS O ALGO ASI*/
+.cabecera::after, .cabecera::before{
+    position: absolute;
     content: "";
     display: block;
-    width: 100px;
-    height: 100px;
-    background-color: #821C99;
+    height: 60%;
+    width: 40%;
+    z-index: 1;
+    
+}
+/*ESTILOS MAS ESPECICOS LAS SIGUIENTES DOS REGLAS*/
+.cabecera::before{
+    
+    right: 0px;
+    bottom: 0px;
+    background-image: linear-gradient(300deg, #6B992B, black);
+    border-top-left-radius: 100% 100%;
+    
 }
 
 .cabecera::after{
-    content: "";
-    display: block;
-    width: 100px;
-    height: 100px;
-    background-color: #AAE657;
+    left: 0px;
+    top: 0px;
+    background-image: linear-gradient(150deg, #821C99, black);
+    border-bottom-right-radius: 100% 100%;
 }
 
-
+/*Menu de navegación*/
 .menu{
-    
-    block-size: auto;
-    background-color: #6B992B;
+    text-align: center;
+    inline-size: 20%;
+    background-color: blue;
     opacity: 0.9;
-    overflow: auto;
+    position: fixed;
+    left: 0px;
+}
+
+.lista{
+    padding-inline-start: 0px;
 }
 
 .boton{
-    float: left;
+    
     list-style: none;
-    inline-size: 30%;
-    background-image: linear-gradient(to up, #AAE657 30%, #6B992B);
+    inline-size: 100%;
+    
 }
 
 
-.caja{
-    background-color: #821C99;
-    block-size: 30px;
-    inline-size: 50px;
-    writing-mode: vertical-lr;
-}
