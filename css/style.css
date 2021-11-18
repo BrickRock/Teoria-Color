@@ -43,12 +43,13 @@ body{
 /*Menu de navegación*/
 .menu{
     text-align: center;
-    inline-size: 20%;
-    background-color: #D06CE6;
+    inline-size: 15%;
+    
     border-radius: 10px;
     opacity: 0.9;
     position: fixed;
     margin-block-start: 10vh;
+    margin-inline-start: 5%;
     left: 0px;
 }
 
@@ -58,11 +59,13 @@ body{
 }
 
 .boton{
-    background-color: white;    
+    background-color: black;
+    color: white;    
     inline-size: 90%;
     font-size: 3rem;
     margin: 5px auto;
     border-radius: 20px;
+    list-style: none;
 }
 
 .boton a{
@@ -73,6 +76,7 @@ body{
 
 .boton a:hover{
     background-color: yellowgreen;
+    border-radius: 20px;
 }
 
 
