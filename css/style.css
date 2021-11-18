@@ -78,5 +78,55 @@ body{
     background-color: yellowgreen;
     border-radius: 20px;
 }
+/*Termina el menú de navegación*/
+
+/************Contenido main*******/
+
+.contenido
+{
+    inline-size: 60%;
+    margin-block-start: 10vh;
+    margin-inline-start: 30%;
+
+    font-family: Arial;
+
+    border: 2px solid #821C99;
+    border-radius: 20px;
+    padding: 20px;
+
+    background-color: white;
+    position: relative;
+}
+
+.menu-contenido
+{
+    list-style: none;
+    padding-left: 0px;
+    
+}
+
+.boton-contenido
+{
+    margin: 5px auto;
+    background-color: #6B992B;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.contenido::before
+{
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(150deg, #821C99, black);
+    inline-size: 50%;
+    block-size: 20%;
+    z-index: 1;
+
+    left: -10px;
+    top: -10px;
+    border-radius: 5px;
+    border-bottom-right-radius: 100% 100%;
+}
 
 
