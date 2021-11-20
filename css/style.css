@@ -110,6 +110,7 @@
     background-color: #6B992B;
     padding: 5px;
     border-radius: 5px;
+    list-style: none;
 }
 
 .decoracion
@@ -143,11 +144,12 @@
 {
     background-color: black;
     color: white;
-    inline-size: 100%;
-    
-}
-.foot-boton
-{
-    list-style: none;
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1vw 0px;
+    margin: 0px auto;
+    margin-block-start: 10vh;
+    inline-size: 95%;
+
+    border-radius: 10px;
 }
