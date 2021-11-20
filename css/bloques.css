@@ -1,2 +1,24 @@
 @import url(style.css);
 
+.contenido-bloque
+{
+    display: block;
+    inline-size: 80%;
+    
+    margin: 0px auto;
+    background: cornsilk;
+}
+
+.teoria
+{
+    
+    border: 2px solid #821C99;
+    margin: 10vh auto;
+    font-family: Arial;
+}
+
+.teoria p
+{
+    inline-size: 80%;
+    margin: 0px auto;
+}
