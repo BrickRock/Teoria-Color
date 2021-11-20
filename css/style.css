@@ -110,6 +110,7 @@
     background-color: #6B992B;
     padding: 5px;
     border-radius: 5px;
+    list-style: none;
 }
 
 .decoracion
@@ -135,3 +136,20 @@
     left: -4vw;
 }
 
+
+
+/***********************************************Footer***************************************************/
+
+.foot
+{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 1vw 0px;
+    margin: 0px auto;
+    margin-block-start: 10vh;
+    inline-size: 95%;
+
+    border-radius: 10px;
+}
