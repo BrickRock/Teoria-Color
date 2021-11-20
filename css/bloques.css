@@ -6,19 +6,72 @@
     inline-size: 80%;
     
     margin: 0px auto;
-    background: cornsilk;
 }
 
-.teoria
+.decoracion
+{
+    text-align: left;
+    font-size: 1.5em;
+    block-size: auto;
+}
+
+.decoracion::after
+{
+    block-size: 150%;
+}
+
+.titulo
+{
+    position: relative;
+    margin: 0px;
+    z-index: 20;
+    
+}
+/*Estilos del contenido de los bloques**/
+.teoria /*contenedor de los temas*/
 {
     
     border: 2px solid #821C99;
+    border-radius: 20px;
     margin: 10vh auto;
+    padding-bottom: 5vh;
     font-family: Arial;
+    position: relative;
+
+    background-color: white;
+}
+
+.teoria::before
+{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #6B992B;
+
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: -1;
+    border-radius: 20px;
 }
 
 .teoria p
 {
     inline-size: 80%;
-    margin: 0px auto;
+    margin: 0.7em auto;
+    text-align: justify;
+    font-size: 1.5em;
 }
+
+.sub /**Subtitulos de los temas*/
+{
+    font-size: 2em;
+    inline-size: 80%;
+    text-align: left;
+    margin: 5vh auto;
+}
+
+
+
+/***/

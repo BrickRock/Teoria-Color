@@ -78,42 +78,10 @@
 }
 /*Termina el menú de navegación*/
 
-.contenido
-{
-    inline-size: 55%;
-    margin-block-start: 10vh;
-    margin-inline-start: 30%;
-
-    font-family: Arial;
-
-    border: 2px solid #821C99;
-    border-radius: 20px;
-    padding: 0px 3vw 20px 3vw;
-    
-    background-color: white;
-    position: relative;
-}
-
-.menu-contenido
-{
-    list-style: none;
-    padding-left: 0px;
-    
-    
-}
-
-.boton-contenido
-{
-    margin: 5px auto;
-    background-color: #6B992B;
-    padding: 5px;
-    border-radius: 5px;
-    list-style: none;
-}
 
 .decoracion
 {   
-    inline-size: 50%;
+    inline-size: 100%;
     block-size: 10vh;
     position: relative;
 }
@@ -125,7 +93,7 @@
     border-radius: 20px;
     border-bottom-right-radius: 100% 100% ;
     background-image: linear-gradient(150deg, #821C99, black);
-    inline-size: 100%;
+    inline-size: 90%;
     block-size: 10vh;
 
     position: absolute;
@@ -133,6 +101,7 @@
     top: -10px;
     left: -4vw;
 }
+
 
 
 /************Contenido main*******/
@@ -157,8 +126,6 @@
 {
     list-style: none;
     padding-left: 0px;
-    
-    
 }
 
 .boton-contenido
@@ -169,30 +136,6 @@
     border-radius: 5px;
     list-style: none;
 }
-
-.decoracion
-{   
-    inline-size: 50%;
-    block-size: 10vh;
-    position: relative;
-}
-
-.decoracion::after
-{
-    content: "";
-    display: block;
-    border-radius: 20px;
-    border-bottom-right-radius: 100% 100% ;
-    background-image: linear-gradient(150deg, #821C99, black);
-    inline-size: 100%;
-    block-size: 10vh;
-
-    position: absolute;
-
-    top: -10px;
-    left: -4vw;
-}
-
 
 
 /***********************************************Footer***************************************************/
