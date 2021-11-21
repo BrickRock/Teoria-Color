@@ -108,9 +108,7 @@
     block-size: 7vh;
     font-size: 5vh;
     background-color: #7f00b2;
-
     position: relative;
- 
 }
 
 .menu-progreso::after
@@ -132,10 +130,22 @@
     z-index: 1;
 }
 
+.menu-progreso a:visited, .menu-progreso a:link
+{
+    text-decoration: none;
+    color: white;
+}
 
 
-.uno{
-    
+/**Detalles**/
+.aqui
+{
+    background-color: #4b0374;
+}
+
+.aqui::after
+{
+    background-color: #4b0374;
 }
 
 .tabla
