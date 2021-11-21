@@ -72,6 +72,24 @@
     margin: 5vh auto;
 }
 
+/**Imagenes del contenido**/
+
+.contenedor-imagenes
+{
+    inline-size: 80%;
+    margin: 3em auto;
+}
+
+.imagenes
+{
+    inline-size: 100%;
+}
+
+.imagenes-pie
+{
+    text-align: center;
+}
+
 
 
 /***/
