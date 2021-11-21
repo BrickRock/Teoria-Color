@@ -92,4 +92,35 @@
 
 
 
-/***/
+/**Menu progreso**/
+.barra-progreso
+{
+    inline-size: 80%;
+    margin: auto;
+    text-align: center;
+
+    color: white;
+}
+
+.menu-progreso
+{
+    display: inline-block;
+    inline-size: 30%;
+    font-size: 7vh;
+    background-color: #7f00b2;
+
+    position: relative;
+
+}
+
+
+
+.uno{
+    
+}
+
+.tabla
+{
+    inline-size: 90%;
+    margin-left: 5%;
+}
