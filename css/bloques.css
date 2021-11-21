@@ -98,7 +98,6 @@
     inline-size: 80%;
     margin: auto;
     text-align: center;
-
     color: white;
 }
 
@@ -106,11 +105,31 @@
 {
     display: inline-block;
     inline-size: 30%;
-    font-size: 7vh;
+    block-size: 7vh;
+    font-size: 5vh;
     background-color: #7f00b2;
 
     position: relative;
+ 
+}
 
+.menu-progreso::after
+{
+    content: "";
+    display: block;
+    width: calc(7vh / 1.414213);
+    height: calc(7vh / 1.414213);
+    background-color: #7f00b2;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+
+    transform: rotate(45deg);
+
+    position: absolute;
+    top: 5px;
+    right: -3.2vh;
+
+    z-index: 1;
 }
 
 
