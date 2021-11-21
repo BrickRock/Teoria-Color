@@ -130,7 +130,13 @@
     z-index: 1;
 }
 
-.menu-progreso a:visited, .menu-progreso a:link
+/*estilo aplicado al último menú*/
+.final::after
+{
+    width: 0px;
+    height: 0px;
+}
+.barra-progreso a:visited, .barra-progreso a:link
 {
     text-decoration: none;
     color: white;
@@ -151,5 +157,9 @@
 .tabla
 {
     inline-size: 90%;
-    margin-left: 5%;
+    block-size: 7vh;
+    background-color: #7f00b2;
+    margin: 0.1em auto;
+    text-align: center;
+    font-size: 5vh;
 }
