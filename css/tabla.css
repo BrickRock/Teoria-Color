@@ -1,0 +1,126 @@
+thead
+{
+    background-color: black;
+    color:white
+}
+
+thead th:nth-child(1) {
+    width: 50%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 50%;
+  }
+
+
+
+table
+{
+    border: 3px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+th{
+    font-size: 2em;
+    text-align: center;
+}
+
+th, td
+{
+    padding: 1rem;
+}
+
+tbody
+{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: gray;
+}
+
+
+.contenido-bloque
+{
+    width: 60%;
+    margin: 2em auto;
+}
+/**Menu progreso**/
+.barra-progreso
+{
+    inline-size: 80%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.menu-progreso
+{
+    display: inline-block;
+    inline-size: 30%;
+    block-size: 7vh;
+    font-size: 5vh;
+    background-color: #7f00b2;
+    position: relative;
+}
+
+.menu-progreso::after
+{
+    content: "";
+    display: block;
+    width: calc(7vh / 1.414213);
+    height: calc(7vh / 1.414213);
+    background-color: #7f00b2;
+    border-top: 5px solid white;
+    border-right: 5px solid white;
+
+    transform: rotate(45deg);
+
+    position: absolute;
+    top: 5px;
+    right: -3.2vh;
+
+    z-index: 1;
+}
+
+/*estilo aplicado al último menú*/
+.final::after
+{
+    width: 0px;
+    height: 0px;
+}
+.barra-progreso a:visited, .barra-progreso a:link
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+/**Detalles**/
+.tabla
+{
+    inline-size: 90%;
+    block-size: 7vh;
+    background-color: #7f00b2;
+    margin: 0.1em auto;
+    text-align: center;
+    font-size: 5vh;
+}
+
+.aqui
+{
+    background-color: #4b0374;
+}
+.aqui::after
+{
+    background-color: #4b0374;
+}
+
+.lol
+{
+    font-size: 2rem;
+}
